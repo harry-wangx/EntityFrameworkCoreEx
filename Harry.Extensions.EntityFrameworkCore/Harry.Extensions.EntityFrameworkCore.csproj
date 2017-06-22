@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Harry.SqlBuilder\Harry.SqlBuilder.Abstractions\Harry.SqlBuilder.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Harry.SqlBuilder\Harry.SqlBuilder\Harry.SqlBuilder.csproj" />
+  </ItemGroup>
+
+</Project>
